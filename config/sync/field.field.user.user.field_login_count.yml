@@ -1,0 +1,24 @@
+uuid: 24829ff3-73ba-4120-8872-fb1bf5b217dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_login_count
+  module:
+    - user
+id: user.user.field_login_count
+field_name: field_login_count
+entity_type: user
+bundle: user
+label: 'Login Count'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

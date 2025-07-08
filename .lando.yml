@@ -1,0 +1,13 @@
+name: sample
+recipe: drupal10
+config:
+  webroot: web
+
+services:
+  mailhog:
+    type: mailhog
+    portforward: true
+tooling:
+  mailhog:
+    service: mailhog
+    cmd: /bin/sh

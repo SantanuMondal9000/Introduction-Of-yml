@@ -1,0 +1,22 @@
+uuid: 2c1197bb-3919-451c-90b6-b1b5bdfc0e89
+langcode: en
+status: true
+dependencies: {  }
+name: small
+label: small
+effects:
+  7681918c-9373-482d-b4be-6df53eafe1b1:
+    uuid: 7681918c-9373-482d-b4be-6df53eafe1b1
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50
+  4c937a64-e2cd-4d7a-ac95-ec3081881a06:
+    uuid: 4c937a64-e2cd-4d7a-ac95-ec3081881a06
+    id: image_scale
+    weight: 2
+    data:
+      width: 50
+      height: 50
+      upscale: false
